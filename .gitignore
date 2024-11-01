@@ -1,0 +1,14 @@
+# Python virtual environments
+portfolio-backend/venv/
+
+# Node modules
+portfolio-frontend/node_modules/
+
+# Python cache
+portfolio-backend/__pycache__/
+
+# Docker artifacts
+*.log
+
+# Build and dependency directories
+portfolio-frontend/build/
