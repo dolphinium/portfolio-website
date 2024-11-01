@@ -1,10 +1,22 @@
 import React from 'react';
+import NavigationBar from './components/NavigationBar';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-4xl font-bold text-center mt-10">Yunus Emre Korkmaz</h1>
-      <p className="text-center mt-4">Welcome to my portfolio website!</p>
+    <div className="App">
+      <NavigationBar />
+      <main className="pt-16">
+        <Home />
+        <About />
+        <Projects />
+        <Gallery />
+      </main>
+      <Footer />
     </div>
   );
 }
