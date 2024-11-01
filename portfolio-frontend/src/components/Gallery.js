@@ -8,16 +8,16 @@ const Gallery = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {/* Repeat the following block for each image */}
           <div>
-            <img src="/gergonaz.jpg" alt="Gallery Item" className="rounded shadow-md" />
+            <img src="/assets/images/gergonaz.jpg" alt="Gallery Item" className="rounded shadow-md" />
           </div>
           <div>
-            <img src="/us.jpg" alt="Gallery Item" className="rounded shadow-md" />
+            <img src="/assets/images/us.jpg" alt="Gallery Item" className="rounded shadow-md" />
           </div>
           <div>
-            <img src="/graduate.jpg" alt="Gallery Item" className="rounded shadow-md" />
+            <img src="/assets/images/graduate.jpg" alt="Gallery Item" className="rounded shadow-md" />
           </div>
           <div>
-            <img src="/thesis.jpg" alt="Gallery Item" className="rounded shadow-md" />
+            <img src="/assets/images/thesis.jpg" alt="Gallery Item" className="rounded shadow-md" />
           </div>
         </div>
       </div>

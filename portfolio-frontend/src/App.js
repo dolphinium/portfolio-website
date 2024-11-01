@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className="pt-16">
         <Home />
         <About />
+        <WorkExperience />
         <Projects />
         <Gallery />
       </main>
